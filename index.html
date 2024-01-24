@@ -25,8 +25,8 @@
                   <a class="btn btn-ghost font-extrabold text-3xl">Hockey<span class="text-red-400">’</span>s</a>
                 </div>
 
-                <div class="navbar-center ">
-                    <ul class="flex gap-x-6">
+                <div class="navbar-center dropdown hidden lg:flex ">
+                    <ul class="lg:flex gap-x-6">
                         <li><a class="text-red-400" href="" >Home</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Pages</a></li>
@@ -38,7 +38,7 @@
 
                 <div class="navbar-end">
                   <button class="btn btn-ghost btn-circle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="lg:h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                   </button>
                   <a class="btn bg-orange-600 text-white">Get Ticket</a>
                 </div>
@@ -81,41 +81,41 @@
     </header>
     <main class="md:container md:mx-auto md:my-0">
         <section>
-         <div class="border-y-2 border-zinc-300  text-center py-5 w-full h-50">  
-        <h2 class="font-extrabold text-4xl py-4">Professional Hockeys Club</h2>
-        <p class="text-base font-medium text-slate-400 pt-4"> stands as a beacon of excellence in the realm of professional hockey. With a storied history<br> dating back [number] years, our club has become synonymous with grit, skill, and the<br> unwavering  pursuit of victory on the ice. </p>
+         <div class="border-y-2 border-zinc-300  text-center w-60 lg: py-5 w-full h-50">  
+        <h2 class="font-extrabold text-xl lg:text-4xl py-4">Professional Hockeys Club</h2>
+        <p class="text-slate-400 text-sm lg:text-base font-medium  pt-4"> stands as a beacon of excellence in the realm of professional hockey. With a storied history<br> dating back [number] years, our club has become synonymous with grit, skill, and the<br> unwavering  pursuit of victory on the ice. </p>
         </div>
         </section>
-<section class="flex justify-between my-11 py-3">
-   <div class="text-center"> 
+<section class="items-center lg:flex justify-between my-11 py-3">
+   <div class="text-center pb-4 lg:text-center"> 
     <div class="radial-progress text-error " style="--value:87 ;" role="progressbar">87%</div>
         <h4 class="text-xl font-semibold">Prayer Facility</h4>
         <p class="font-normal text-base text-zinc-400">Every detail of our prayer facility is <br>crafted with intention .</p> 
 </div>
-<div class="text-center"> 
+<div class="text-center pb-4 lg:text-center"> 
     <div class="radial-progress text-success " style="--value:95 ;" role="progressbar">95%</div>
         <h4 class="text-xl font-semibold">Experienced Coach</h4>
         <p class="font-normal text-base text-zinc-400">Our coach's journey is marked by <br>a history of success .</p>
 </div>
-<div class="text-center"> 
+<div class="text-center pb-4 lg:text-center"> 
     <div class="radial-progress text-warning " style="--value:90 ;" role="progressbar">90%</div>
         <h4 class="text-xl font-semibold">Senior Player</h4>
         <p class="font-normal text-base text-zinc-400">The journey of our senior player is woven <br>with milestones and achievements.</p>
 </div>
-<div class="text-center"> 
+<div class="text-center pb-4 lg:text-center"> 
     <div class="radial-progress text-info " style="--value:80 ;" role="progressbar">80%</div>
         <h4 class="text-xl font-semibold">Training Ground</h4>
         <p class="font-normal text-base text-zinc-400">our training ground fosters<br> camaraderie and teamwork.</p>
 </div>
 </section>
 <section>
-    <div class="border-y-2 border-zinc-300  text-center my-11 py-10 w-full h-50">  
-        <h2 class="font-extrabold text-4xl">Program Sections</h2>
-        <p class="text-base font-medium text-slate-400 pt-4"> this program sections are  very popular .select one and click<br> register button if you want to join </p>
+    <div class="border-y-2 border-zinc-300  text-center lg: my-11 py-10 w-full h-50">  
+        <h2 class="font-extrabold text-xl lg:text-4xl">Program Sections</h2>
+        <p class="text-base font-medium text-slate-400 pt-4"> this program sections are  very popular .select one and<br> click register button if you want to join </p>
         </div>
 </section>
 <section class="ml-10 my-11 ">
-    <div class="flex gap-6 mt-9 mb-4">
+    <div class=" lg:flex gap-6 mt-9 mb-4">
     <div class="card w-[573px] bg-base-100 shadow-xl image-full">
         <figure><img src="Images/2.png" alt="Shoes" /></figure>
         <div class="card-body pb-10 pt-12">
@@ -151,7 +151,7 @@
       </div>
 </section>
 <!--new product section-->
-<section class="grid grid-cols-2">
+<section class="grid grid-cols-1  lg:grid-cols-2">
   <!--product 1-->
   <div class="hero min-h-50% border-slate-100 rounded-2xl">
     <div class="hero-content flex-col lg:flex-row">
@@ -379,11 +379,11 @@
 <!--Clients Question-->
 <section>
   <div class="border-y-2 border-zinc-300 my-12  text-center py-5 w-full h-50">  
-    <h2 class="font-extrabold pt-8 text-4xl">Clients Question</h2>
-    <p class="text-base font-medium text-slate-400 pt-4 pb-10"> Heres the basic qustion that many people want  to know.If you have<br> any qustion ,please read those first </p>
+    <h2 class="font-extrabold pt-8 text-2xl lg:text-4xl">Clients Question</h2>
+    <p class=" text-sm font-medium text-slate-400 pt-4 pb-10 lg:text-base"> Heres the basic qustion that many people want  to know.If you have<br> any qustion ,please read those first </p>
     </div>
     <!--qus sec-->
-    <div class="flex p-8 gap-x-8 m-8 w-[1440px] h-[690px]">
+    <div class="w-full h-auto m-2 lg:flex p-8 gap-x-8 m-8 w-[1440px] h-[690px]">
       
      <div class="w-[441px] h-[470px]"> <img src="Images/11.png" alt=""></div>
 
